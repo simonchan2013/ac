@@ -1,2 +1,2 @@
-# leetcode
-solution for leetcode
+# Accepted
+solution for ac
