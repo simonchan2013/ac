@@ -7,6 +7,7 @@ class Solution:
         nums.sort()
         N, result = len(nums), []
         for i in range(N):
+            # 对于重复值，只处理第一个，其他跳过
             if i > 0 and nums[i] == nums[i-1]:
                 continue
             target = nums[i]*-1
